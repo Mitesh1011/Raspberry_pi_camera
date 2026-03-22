@@ -9,9 +9,13 @@ It is particularly useful for robotics applications, such as object recognition,
 **Features**
 
 Live camera feed using Raspberry Pi Camera
+
 Real-time object detection using MediaPipe
+
 Bounding boxes with labels and confidence scores
+
 Cropping and resizing detected objects
+
 Optimized for embedded systems (Raspberry Pi)
 
 **Technologies Used**
@@ -26,7 +30,9 @@ TensorFlow Lite (.tflite model)
 **Project Structure**
 
 ├── main.py                # Main script
+
 ├── model_fp16.tflite     # Object detection model
+
 ├── README.md             # Documentation
 
 # **Requirements & Installation**
@@ -34,15 +40,20 @@ TensorFlow Lite (.tflite model)
 **System Requirements**
 
 Raspberry Pi (Recommended: Raspberry Pi 4)
+
 Raspberry Pi OS (Bullseye or newer)
+
 Python 3.9+
+
 Raspberry Pi Camera Module
 
 **Required Libraries**
 
 **1. Install Python Dependencies**
 
-```pip install opencv-python numpy mediapipe```
+```
+pip install opencv-python numpy mediapipe
+```
 
 **2. Install Camera Support (Important)**
 
@@ -54,7 +65,8 @@ sudo apt install python3-picamera2 libcamera-apps
 
 You must include the following file in your project folder:
 
-```model_fp16.tflite```
+```
+model_fp16.tflite```
 
 *🔹 Description*
 
@@ -91,13 +103,13 @@ Press ```q ``` to quit the application.
 
 **How It Works**
 
-1) The Raspberry Pi camera captures live frames.
+1. The Raspberry Pi camera captures live frames.
 
-2) Each frame is converted into a MediaPipe-compatible format.
+2. Each frame is converted into a MediaPipe-compatible format.
 
-3) The TensorFlow Lite model performs object detection.
+3. The TensorFlow Lite model performs object detection.
 
-4) The system:
+4. The system:
 
 Draws bounding boxes
 
@@ -105,7 +117,7 @@ Displays object labels and confidence scores
 
 Crops detected objects for further processing
 
-5) Output is displayed in real time using OpenCV.
+5. Output is displayed in real time using OpenCV.
 
 **Output**
 
@@ -119,9 +131,10 @@ Labels with confidence scores (e.g., Ball (0.87))
 
 Camera not detected
 
-Run:
+*Run:*
 
-```sudo raspi-config```
+```
+sudo raspi-config```
 
 Enable camera under *Interface Options*.
 
