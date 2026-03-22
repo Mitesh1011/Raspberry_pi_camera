@@ -66,7 +66,8 @@ sudo apt install python3-picamera2 libcamera-apps
 You must include the following file in your project folder:
 
 ```
-model_fp16.tflite```
+model_fp16.tflite
+```
 
 *🔹 Description*
 
@@ -82,24 +83,30 @@ Train your own custom model for specific objects (e.g., ping pong ball, rugby ba
 **Optional Setup (Recommended)**
 
 *Create Virtual Environment*
+
 ```
 python3 -m venv env
 source env/bin/activate
+
 ```
 
 *Upgrade pip*
+
 ```
 pip install --upgrade pip
+
 ```
 
 *Usage*
 
 Run the program:
+
 ```
 python main.py
+
 ```
 
-Press ```q ``` to quit the application.
+Press *q* to quit the application.
 
 **How It Works**
 
