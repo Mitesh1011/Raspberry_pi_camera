@@ -47,7 +47,7 @@ Python 3.9+
 
 Raspberry Pi Camera Module
 
-**Required Libraries**
+# **Required Libraries**
 
 **1. Install Python Dependencies**
 
@@ -108,7 +108,7 @@ python main.py
 
 Press ``q`` to quit the application.
 
-**How It Works**
+# **How It Works**
 
 1. The Raspberry Pi camera captures live frames.
 
@@ -134,7 +134,7 @@ Bounding boxes around detected objects
 
 Labels with confidence scores (e.g., Ball (0.87))
 
-**Troubleshooting**
+# **Troubleshooting**
 
 Camera not detected
 
@@ -157,7 +157,7 @@ Reduce resolution (already set to 320x240)
 
 Close background applications
 
-**Future Improvements**
+# **Future Improvements**
 
 Add object tracking
 
@@ -169,12 +169,12 @@ Integrate with robotic systems (e.g., ball collection robot)
 
 Add FPS (frames per second) display
 
-**Contributing**
+# **Contributing**
 
 Feel free to fork this repository and submit pull requests.
 
 
-**Author**
+# **Author**
 
 Mitesh Salvi
 
