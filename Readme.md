@@ -106,7 +106,7 @@ python main.py
 
 ```
 
-Press *q* to quit the application.
+Press ``q`` to quit the application.
 
 **How It Works**
 
@@ -141,7 +141,8 @@ Camera not detected
 *Run:*
 
 ```
-sudo raspi-config```
+sudo raspi-config
+```
 
 Enable camera under *Interface Options*.
 
