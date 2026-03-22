@@ -20,12 +20,12 @@ Optimized for embedded systems (Raspberry Pi)
 
 **Technologies Used**
 
-Python 3
-OpenCV (cv2)
-NumPy
-MediaPipe Tasks API
-Picamera2
-TensorFlow Lite (.tflite model)
+Python 3,
+ OpenCV (cv2),
+ NumPy,
+ MediaPipe Tasks API,
+ Picamera2,
+ TensorFlow Lite (.tflite model)
 
 **Project Structure**
 
@@ -92,7 +92,7 @@ source env/bin/activate
 pip install --upgrade pip
 ```
 
-*▶️ Usage*
+*Usage*
 
 Run the program:
 ```
